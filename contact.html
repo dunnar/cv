@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact information</title>
+</head>
+<body>
+    <h1>My contact details</h1>
+    <ul>
+        <li>Telephone: +1 647 915 9016</li>
+        <li>email: <a href="mailto:stany@innscience.ca">stany[at]innscience[dot]ca</a> </li>
+    </ul>
+    <hr>
+    <form action="mailto:stany@innscience.ca" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your Name:</label></td>
+                <td><input type="text" name="yourName"><br></td>
+            </tr>
+            <tr>
+                <td><label for="">Your email:</label></td>
+                <td><input type="email" name="yourEmail" id=""><br></td>
+            </tr>
+        </table>
+        <label for="">Your message:</label>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
